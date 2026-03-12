@@ -178,3 +178,23 @@ textarea {
     margin-top: 6px;
     resize: vertical;
 }
+
+/* Сусідні селектори */
+
+h2 + p {
+    color: #417d56;
+}
+
+/* Контекстний селектор */
+
+p a {
+    font-weight: 600;
+    font-family: cursive;
+}
+
+/* Дочірній селектор */
+
+.form-card > h2 {
+    color: #d81dd8;
+    margin-top: 0;
+}
